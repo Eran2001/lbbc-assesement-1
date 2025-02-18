@@ -12,3 +12,47 @@
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
+
+html {
+  background-color: var(--background);
+}
+
+.main {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.main h1 {
+  color: var(--headings);
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.main p {
+  color: var(--primaryText);
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.second {
+  background-color: rgb(131, 145, 50);
+}
+
+.third {
+  background-color: rgb(9, 215, 44);
+}
+
+.fourth {
+  background-color: rgb(12, 186, 102);
+}
+
+.fifth {
+  background-color: rgb(181, 23, 112);
+}
+
+.sixth {
+  background-color: rgb(226, 13, 98);
+}
