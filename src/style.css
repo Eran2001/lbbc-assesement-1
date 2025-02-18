@@ -301,6 +301,29 @@ html {
   margin: 2rem 4rem 2rem 3rem;
   text-align: center;
 }
+
 .sixth {
-  background-color: rgb(226, 13, 98);
+  min-height: 50vh;
+  padding: 2rem 20px 5rem 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sixth:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sixth h2 {
+  color: var(--headings);
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.sixth p {
+  margin: 0 8rem;
+  line-height: 1.5;
 }
