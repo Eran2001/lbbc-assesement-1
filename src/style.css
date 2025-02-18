@@ -1,3 +1,11 @@
+:root {
+  --background: #F5F7FA 
+  --primaryText: #333333 
+  --headings: #005A9E 
+  --accentColor: #FF5722 /* Buttons, Links */
+  --secondaryAccent: #FFC107/* Hover Effects */
+}
+
 * {
   margin: 0;
   padding: 0;
