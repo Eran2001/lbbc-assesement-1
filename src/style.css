@@ -76,8 +76,10 @@ html {
 }
 
 .second h2 {
+  color: var(--headings);
   font-size: 2rem;
   margin-left: 8rem;
+  margin-bottom: 2rem;
 }
 
 .second .right {
@@ -109,6 +111,7 @@ html {
 }
 
 .third h2 {
+  color: var(--headings);
   text-align: center;
   font-size: 2rem;
   margin-left: 8rem;
@@ -204,6 +207,7 @@ html {
 }
 
 .fourth h2 {
+  color: var(--headings);
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
@@ -237,9 +241,66 @@ html {
 }
 
 .fifth {
-  background-color: rgb(181, 23, 112);
+  min-height: 50vh;
+  padding: 4rem 20px 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.fifth:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fifth h2 {
+  color: var(--headings);
+  font-size: 2rem;
+  padding-top: 1.2rem;
+  text-align: center;
+}
+
+.fifth-flex {
+  display: flex;
+  margin: 3rem 8rem 5rem;
+}
+
+.fifth h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.fifth img {
+  margin-left: 3rem;
+}
+
+.static h3 {
+  margin-left: 2rem;
+}
+
+.dynamic h3 {
+  margin-right: 2rem;
+}
+
+.static {
+  margin-right: 6rem;
+}
+
+.fifth p {
+  line-height: 1.5;
+}
+
+.static p {
+  margin: 2rem 0 2rem 3rem;
+  text-align: center;
+}
+
+.dynamic p {
+  margin: 2rem 4rem 2rem 3rem;
+  text-align: center;
+}
 .sixth {
   background-color: rgb(226, 13, 98);
 }
