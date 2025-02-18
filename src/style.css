@@ -1,9 +1,9 @@
 :root {
-  --background: #F5F7FA 
-  --primaryText: #333333 
-  --headings: #005A9E 
-  --accentColor: #FF5722 /* Buttons, Links */
-  --secondaryAccent: #FFC107/* Hover Effects */
+  --background: #f5f7fa;
+  --primaryText: #333333;
+  --headings: #005a9e;
+  --accentColor: #ff5722; /* Buttons, Links */
+  --secondaryAccent: #ffc107; /* Hover Effects */
 }
 
 * {
