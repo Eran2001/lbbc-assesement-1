@@ -63,7 +63,7 @@ html {
 .second {
   display: flex;
   min-height: 50vh;
-  padding: 20px;
+  padding: 20px 20px 4rem 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1.5rem;
@@ -95,7 +95,55 @@ html {
 }
 
 .third {
-  background-color: rgb(9, 215, 44);
+  min-height: 50vh;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.third:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.third h2 {
+  font-size: 2rem;
+  margin-left: 8rem;
+}
+
+.third > div {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3rem;
+  margin: 0 5.5rem 0 5.5rem;
+  padding: 2rem;
+}
+
+.third-grid div {
+  border-radius: 1rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.third-grid div:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.third-grid span {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.third-grid .static {
+  text-decoration-color: rgb(36, 36, 191);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
 }
 
 .fourth {
