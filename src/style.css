@@ -96,7 +96,7 @@ html {
 
 .third {
   min-height: 50vh;
-  padding: 20px;
+  padding: 4rem 20px 20px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1.5rem;
@@ -109,6 +109,7 @@ html {
 }
 
 .third h2 {
+  text-align: center;
   font-size: 2rem;
   margin-left: 8rem;
 }
@@ -189,7 +190,50 @@ html {
 }
 
 .fourth {
-  background-color: rgb(12, 186, 102);
+  min-height: 50vh;
+  padding: 2rem 20px 5rem 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fourth:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fourth h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 8rem 0 8rem;
+}
+
+.fourth p {
+  text-align: center;
+  margin: 0 8rem 0 8rem;
+  line-height: 1.9;
+}
+
+.fourth .link {
+  margin-top: 2rem;
+}
+
+.fourth a {
+  /* border: 1px solid #000; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  color: var(--accentColor);
+}
+
+.fourth a:hover {
+  color: var(--primaryText);
+  background-color: var(--secondaryAccent);
 }
 
 .fifth {
