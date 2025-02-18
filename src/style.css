@@ -61,7 +61,37 @@ html {
   height: 500px;
 }
 .second {
-  background-color: rgb(131, 145, 50);
+  display: flex;
+  min-height: 50vh;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.second:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.second h2 {
+  font-size: 2rem;
+  margin-left: 8rem;
+}
+
+.second .right {
+  margin-top: 4rem;
+  padding-right: 8rem;
+}
+
+.second .right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.second .right ul li {
+  margin-bottom: 1rem;
 }
 
 .third {
