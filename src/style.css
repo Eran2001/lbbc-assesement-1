@@ -146,6 +146,48 @@ html {
   text-decoration-thickness: 5px;
 }
 
+.third-grid .dynamic {
+  text-decoration-color: rgb(13, 156, 20);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .comm {
+  text-decoration-color: rgb(204, 6, 6);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .cms {
+  text-decoration-color: rgb(196, 170, 5);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .web {
+  text-decoration-color: rgb(184, 207, 8);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .port {
+  text-decoration-color: rgb(155, 5, 175);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .busi {
+  text-decoration-color: rgb(214, 90, 2);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.third-grid .social {
+  text-decoration-color: rgb(6, 201, 182);
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
 .fourth {
   background-color: rgb(12, 186, 102);
 }
