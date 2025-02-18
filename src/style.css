@@ -18,25 +18,42 @@ html {
 }
 
 .main {
-  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
 }
 
-.main h1 {
+.left {
+  min-height: 50vh;
+  margin-top: 4rem;
+}
+
+.left h1 {
   color: var(--headings);
-  font-size: 2em;
+  font-size: 3em;
+  margin-left: 8rem;
   margin-bottom: 10px;
 }
 
-.main p {
+.left p {
   color: var(--primaryText);
+  width: 60%;
+  margin-left: 8rem;
+  text-align: left;
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 2;
 }
 
+.right img {
+  position: relative;
+  top: 0%;
+  right: 40%;
+  width: 600px;
+  height: 500px;
+}
 .second {
   background-color: rgb(131, 145, 50);
 }
